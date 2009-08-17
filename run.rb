@@ -1,7 +1,7 @@
 
 require 'common'
 
-fann = RubyFann::Standard.new(:filename => 'data.fann')
+fann = RubyFann::Standard.new(:filename => 'data3.fann')
 expected = %w{ h f 8 g 8 9 d t 8 r h v d t 9 m 8 g j 3 s j f e d e 6 g e e 5 l w v r 7  f q u g s j t p 1 w 1 d q s g f y n 5 b i 2 e k}
 all, win = 0, 0
 
